@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #fbfdfb 0%, #292230 100%);
     min-height: 100vh;
     padding: 0;
 }
@@ -26,7 +26,7 @@ body {
 .nav-brand {
     font-size: 1.5em;
     font-weight: bold;
-    color: #667eea;
+    color: #c91b32;
 }
 
 .nav-links {
@@ -44,7 +44,7 @@ body {
 }
 
 .nav-links a:hover {
-    background: #667eea;
+    background: #66ea71;
     color: white;
 }
 
@@ -72,9 +72,9 @@ h1 {
 }
 
 h2 {
-    color: #667eea;
+    color: #040920;
     margin-bottom: 15px;
-    border-bottom: 2px solid #667eea;
+    border-bottom: 2px solid #060a1f;
     padding-bottom: 10px;
 }
 
@@ -110,13 +110,13 @@ input[type="text"] {
 
 input[type="text"]:focus {
     outline: none;
-    border-color: #667eea;
+    border-color: #96969b;
 }
 
 button {
     width: 100%;
     padding: 12px;
-    background: #667eea;
+    background: #f3f3f3;
     color: white;
     border: none;
     border-radius: 5px;
@@ -127,7 +127,7 @@ button {
 }
 
 button:hover {
-    background: #5568d3;
+    background: #2f912c;
     transform: translateY(-2px);
 }
 
@@ -148,15 +148,17 @@ button:active {
 }
 
 .refresh-btn {
-    background: #28a745;
+    margin-top: 22px;
+    background: #68e485;
 }
 
 .refresh-btn:hover {
-    background: #218838;
+    background: #55df73;
 }
 
 .clear-btn {
-    background: #dc3545;
+    margin-top: 22px;
+    background: #db6974;
 }
 
 .clear-btn:hover {
@@ -174,7 +176,7 @@ button:active {
 }
 
 .stat-card {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #9cd442 0%, #5a2192 100%);
     color: white;
     padding: 20px;
     border-radius: 10px;
@@ -235,7 +237,7 @@ button:active {
 }
 
 .log-entry.user-logout {
-    border-left-color: #dc3545;
+    border-left-color: #eb5c6a;
 }
 
 .log-entry.user-purchase {
@@ -275,26 +277,12 @@ button:active {
 }
 
 .log-content::-webkit-scrollbar-thumb {
-    background: #667eea;
+    background: #1f2e70;
     border-radius: 10px;
 }
 
-.
 
-/* Welcome Section */
-.welcome-section {
-    margin-bottom: 30px;
-}
 
-.welcome-section h2 {
-    color: #333;
-    margin-bottom: 10px;
-}
-
-.welcome-section p {
-    color: #666;
-    margin-bottom: 20px;
-}
 
 .nav-grid {
     display: grid;
@@ -305,7 +293,7 @@ button:active {
 
 .nav-card {
     text-decoration: none;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #e4919a 0%, #b68ce0 100%);
     color: white;
     padding: 30px 20px;
     border-radius: 15px;
