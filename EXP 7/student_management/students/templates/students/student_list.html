@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Management System</title>
+</head>
+<body>
+    <h1>Students</h1>
+    <a href="{% url 'student_create' %}">Add Student</a>
+    <ul>
+        {% for student in students %}
+        <li>
+            {{ student.name }} - {{ student.email }} - {{ student.age }} - {{ student.course.name }}
+            <a href="{% url 'student_update' student.pk %}">Edit</a>
+            <a href="{% url 'student_delete' student.pk %}">Delete</a>
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
