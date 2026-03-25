@@ -1,0 +1,61 @@
+# Generated Git ignore for EXP 4 project
+
+### Node.js artifacts
+node_modules/
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# build directories
+dist/
+dist-ssr/
+build/
+output/
+
+# logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+
+# Editor directories and settings
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+Desktop.ini
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Misc
+coverage/
+*.sqlite
+
+# keep this file itself
+!/.gitignore
+
