@@ -1,13 +1,17 @@
 # Student Management System - Django Experiment
 
-This is a mid-complexity Django application for managing students and courses.
+This is a Django-based student management system for managing students and courses.
 
 ## Features
 - CRUD operations for Students
 - Course management
 - Django Admin interface
 
-## Setup
+## Courses Available
+- CE (Computer Engineering)
+- ICT (Information and Communication Technology)
+- EC (Electronics and Communication)
+- Chemical (Chemical Engineering)
 1. Activate virtual environment: `.\venv\Scripts\activate`
 2. Run migrations: `python manage.py migrate`
 3. Create superuser: `python manage.py createsuperuser`
